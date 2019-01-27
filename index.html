@@ -2,20 +2,40 @@
 <head>
     <title>Bootstrap Portfolio Main Page</title>
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type=text/css>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Erik Plaza</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+   <nav class="navbar navbar-expand-sm navbar-custom justify-content-end">
+        <div class="container">
+            <a class="navbar-brand p-3" href="index.html">Erik Plaza</a>
+            <div class="collapse navbar-collapse flex-grow-0 ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            </div>
-          </nav>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pl-0 pt-3 pb-3 cssbg">
+        <div class="col-12">
+            <div class="header-inner h1 border-bottom">About Me</div>
+            <img src="images/holder1.png" class="rounded float-left pr-2 pb-2" alt="Basque Flag">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor sapien et sapien posuere blandit. Ut tincidunt scelerisque purus venenatis semper. In sit amet ipsum justo. Cras id auctor risus, quis tempor quam. Fusce vestibulum pulvinar gravida. Vivamus tincidunt nibh et lorem maximus, et fringilla magna pharetra. Maecenas vitae varius lectus. Phasellus purus tellus, dapibus a volutpat id, venenatis at nisi. Nunc at sagittis est. Sed sed augue id ante placerat faucibus in vitae orci. Cras ornare libero ac erat egestas, quis fringilla nisl mattis. Fusce dapibus mattis nulla at gravida. Quisque pulvinar leo sit amet diam pretium, ac aliquam ante pulvinar. Cras dignissim dolor non lacus feugiat condimentum.</p>
+
+                <p>Praesent facilisis posuere pretium. Aliquam hendrerit ultrices leo eget imperdiet. Maecenas tincidunt ante eget enim iaculis dignissim. Nulla fringilla maximus mi vitae posuere. Aliquam vel eros luctus, pulvinar arcu in, mollis metus. Integer quam arcu, sodales id est et, scelerisque tempor erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse eget aliquam ex. Suspendisse vel sem risus. Phasellus condimentum eget justo ac vulputate. Curabitur commodo, massa sed consectetur gravida, massa risus fermentum dolor, sit amet faucibus quam nisl sit amet lorem. Cras pharetra risus nulla, nec mattis elit sollicitudin non. Donec quis odio pellentesque, consectetur risus at, tristique mi. Fusce iaculis sapien justo, eu sollicitudin quam sodales eu. Quisque vestibulum sit amet nisi sit amet euismod.</p>
+                
+                <p>In egestas tortor a pulvinar semper. Nam pretium, lorem eget porttitor euismod, nibh magna gravida lorem, sit amet tristique eros elit at est. Integer hendrerit risus leo, in cursus tellus blandit non. Aliquam risus sapien, malesuada ac massa ut, dapibus varius ligula. Fusce rutrum quis neque eget ornare. Aliquam condimentum suscipit ligula non bibendum. Nam sit amet condimentum nibh. Morbi et ante eget ipsum dapibus sollicitudin.</p>
+        </div>
+    </div>
+
+    
 </body>

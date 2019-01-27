@@ -1,0 +1,17 @@
+body {
+    background-image: url(../images/concrete_seamless.png)
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+    border-bottom: solid 8px #cccccc;
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+.cssbg {
+    background: #ffffff;
+}
