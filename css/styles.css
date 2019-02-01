@@ -31,12 +31,11 @@ footer .container {
 
 .pichead {
     position: absolute;
-    bottom: -5px;
-    width: 94%;
+    bottom: 30px;
+    width: 93.7%;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background: #4aaaa5;
     color: #ffffff;
     padding: 15px;
-}
 }
